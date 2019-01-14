@@ -1,0 +1,458 @@
+body{
+  background-color: #2A353B;
+  font-family: 'Nunito', sans-serif;
+}
+.block{
+  background-color: #DF4D50;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);;
+}
+h1{
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+}
+h4{
+  font-weight: Semi-Bold;
+  color: white;
+}
+
+h5{
+  font-weight: Semi-Bold;
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+.mic{
+  position: absolute;
+  z-index: -8;
+}
+
+button{
+  background-color: #EEE100;
+  box-shadow: 0 8px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  min-width: 150px;
+  font-weight: bold;
+  font-size: 23px;
+  padding: 10px;
+  cursor: pointer;
+}
+button:active{
+  box-shadow: 0 2px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+.animate span:nth-of-type(2) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .85s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .9s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .95s;
+}
+
+
+
+
+/* Animation Three */
+
+
+.three span {
+	color: #b10e81;
+	opacity: 0;
+	transform: translate(-300px, 0) scale(0);
+	animation: sideSlide .5s forwards;
+}
+
+@keyframes sideSlide {
+	60% {
+		transform: translate(20px, 0) scale(1);
+		color: #b10e81;
+	}
+
+	80% {
+		transform: translate(20px, 0) scale(1);
+		color: #b10e81;
+	}
+
+	99% {
+		transform: translate(0) scale(1.2);
+		color: #00f0ff;
+	}
+
+	100% {
+		transform: translate(0) scale(1);
+		opacity: 1;
+		color: white;
+	}
+}
+
+.elementToAnimate{
+    animation: Animation 7s infinite 0s linear;
+}
+
+@keyframes Animation{
+    0%{
+        }
+    16%{
+        transform: translateY(15px);
+        }
+    38%{
+        transform: translateY(-15px);
+        }
+    61%{
+        transform: translateY(15px);
+        }
+    84%{
+        transform: translateY(-15px);
+        }
+    100%{
+        transform: rotate(xx) translateY(15px);
+        }
+}
+
+.elementToAnimate1{
+    animation: Animation 7s infinite 1s linear;
+}
+
+@keyframes Animation1{
+    0%{
+        }
+    16%{
+        transform: translateY(15px);
+        }
+    38%{
+        transform: translateY(-15px);
+        }
+    61%{
+        transform: translateY(15px);
+        }
+    84%{
+        transform: translateY(-15px);
+        }
+    100%{
+        transform: rotate(xx) translateY(15px);
+        }
+}
+
+
+
+@media (max-width: 575.98px) {
+  .logo1{
+    padding-top: 70px;
+    height: 300px;
+  }
+
+  .block{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-right: 0px;
+  }
+  .block h1{
+    padding: 0px;
+  }
+
+
+  .block h4{
+    padding: 30px;
+  }
+  .block .venue{
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  .block .tickets{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-right:0px;
+    font-size: 15px;
+  }
+  .block img{
+    padding-left: 10px;
+  }
+  .mic1{
+    top: 300px;
+    left: 240px;
+  }
+  .mic2{
+    top: 360px;
+    left: 40px;
+
+  }
+  .mic3{
+    top: 500px;
+    left: 190px;
+
+  }
+  .mic4{
+    top: 420px;
+    left: 200px;
+  }
+  .mic5{
+    top: 610px;
+    left: 250px;
+  }
+  .mic6{
+    top: 910px;
+    left: 250px;
+  }
+  .mic7{
+    top: 20px;
+    left: 50px;
+  }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .logo1{
+    padding-top: 130px;
+    height: 400px;
+  }
+
+  .block{
+    margin-top: 90px;
+    padding: 30px;
+    margin-right: 50px;
+  }
+  .block h1{
+    padding: 0px;
+  }
+
+
+  .block h4{
+    padding: 10px;
+  }
+  .block .venue{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .block .tickets{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+  }
+  .block img{
+    padding-left: 10px;
+  }
+  .mic1{
+    top: 30px;
+    left: 700px;
+  }
+  .mic2{
+    top: 250px;
+    left: 700px;
+
+  }
+  .mic3{
+    top: 500px;
+    left: 600px;
+  }
+  .mic4{
+    top: 480px;
+    left: 300px;
+  }
+  .mic5{
+    top: 400px;
+    left: 100px;
+  }
+  .mic6{
+    top: 110px;
+    left: 360px;
+  }
+  .mic7{
+    top: 20px;
+    left: 50px;
+  }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+     .logo1{
+       padding-top: 140px;
+       height: 400px;
+     }
+
+     .block{
+       margin-top: 90px;
+       padding: 30px;
+       margin-right: 50px;
+     }
+     .block h1{
+       padding: 0px;
+     }
+
+
+     .block h4{
+       padding: 30px;
+     }
+     .block .venue{
+       margin-top: 30px;
+     }
+     .block .tickets{
+       margin-top: 30px;
+       margin-left: 50px;
+       padding-left: 20px;
+       padding-right: 20px;
+     }
+     .block img{
+       padding-left: 10px;
+     }
+     .mic1{
+       top: 30px;
+       left: 700px;
+     }
+     .mic2{
+       top: 50px;
+       left: 1000px;
+
+     }
+     .mic3{
+       top: 460px;
+       left: 1000px;
+     }
+     .mic4{
+       top: 520px;
+       left: 600px;
+     }
+     .mic5{
+       top: 510px;
+       left: 100px;
+     }
+     .mic6{
+       top: 110px;
+       left: 360px;
+     }
+     .mic7{
+       top: 20px;
+       left: 50px;
+     }
+
+}
+
+ @media (min-width: 1200px)  {
+
+
+   .logo1{
+     padding-top: 130px;
+   }
+
+   .block{
+     margin-top: 90px;
+     padding: 70px;
+     margin-right: 50px;
+   }
+   .block h1{
+     padding: 0px;
+   }
+
+
+   .block h4{
+     padding: 30px;
+   }
+   .block .venue{
+     margin-top: 30px;
+   }
+   .block .tickets{
+     margin-top: 30px;
+     margin-left: 50px;
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+   .block img{
+     padding-left: 10px;
+   }
+   .mic1{
+     top: 30px;
+     left: 700px;
+   }
+   .mic2{
+     top: 50px;
+     left: 1080px;
+
+   }
+   .mic3{
+     top: 560px;
+     left: 1040px;
+   }
+   .mic4{
+     top: 580px;
+     left: 600px;
+   }
+   .mic5{
+     top: 550px;
+     left: 100px;
+   }
+   .mic6{
+     top: 110px;
+     left: 360px;
+   }
+   .mic7{
+     top: 20px;
+     left: 50px;
+   }
+  }
