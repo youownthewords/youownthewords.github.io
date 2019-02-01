@@ -302,3 +302,15 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+a:hover{
+  color:#d19a02;
+}
+
+a:visited{
+  color:#d19a02;
+}
+
+.about-section img{
+  height: 50%;
+}
