@@ -823,3 +823,25 @@ Main components
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
 }
+
+.book {
+  background: none;
+  border: 3px solid black;
+  border-radius: 4px;
+  padding: 5px 15px 5px 15px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.details {
+  color: whitesmoke;
+  border: none;
+  background: black;
+  padding: 7px 20px 7px 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
